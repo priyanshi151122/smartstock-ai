@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------ themes */
+:root {
+  --c-bg: 244 246 251;
+  --c-surface: 255 255 255;
+  --c-elevated: 248 250 253;
+  --c-line: 226 232 240;
+  --c-ink: 15 23 42;
+  --c-muted: 100 116 139;
+  --c-accent: 37 99 235;
+  --c-accent-soft: 219 234 254;
+  --c-positive: 22 163 74;
+  --c-warning: 217 119 6;
+  --c-danger: 220 38 38;
+  --c-info: 14 116 144;
+  --chart-grid: 226 232 240;
+  color-scheme: light;
+}
+
+.dark {
+  --c-bg: 7 11 22;
+  --c-surface: 15 22 39;
+  --c-elevated: 20 29 50;
+  --c-line: 38 50 78;
+  --c-ink: 226 232 240;
+  --c-muted: 148 163 184;
+  --c-accent: 96 165 250;
+  --c-accent-soft: 30 58 138;
+  --c-positive: 52 211 153;
+  --c-warning: 251 191 36;
+  --c-danger: 248 113 113;
+  --c-info: 56 189 248;
+  --chart-grid: 38 50 78;
+  color-scheme: dark;
+}
+
+@layer base {
+  * {
+    @apply border-line;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-bg text-ink font-sans antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "tnum";
+  }
+
+  h1 { @apply text-xl font-semibold tracking-tight sm:text-2xl; }
+  h2 { @apply text-base font-semibold tracking-tight sm:text-lg; }
+  h3 { @apply text-sm font-semibold tracking-tight; }
+
+  /* Visible, consistent keyboard focus everywhere. */
+  :focus-visible {
+    @apply outline-none ring-2 ring-accent ring-offset-2 ring-offset-bg;
+  }
+
+  th { @apply font-medium; }
+}
+
+@layer components {
+  .card {
+    @apply rounded-xl border border-line bg-surface shadow-card;
+  }
+
+  .card-pad {
+    @apply p-4 sm:p-5;
+  }
+
+  .label {
+    @apply mb-1 block text-xs font-medium text-muted;
+  }
+
+  .input {
+    @apply w-full rounded-lg border border-line bg-elevated px-3 py-2 text-sm text-ink placeholder:text-muted/70
+      transition focus:border-accent focus:ring-2 focus:ring-accent/30;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-3 py-2 text-sm font-medium
+      transition disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-primary {
+    @apply btn bg-accent text-white hover:opacity-90 active:opacity-95 dark:text-slate-950;
+  }
+
+  .btn-secondary {
+    @apply btn border border-line bg-surface text-ink hover:bg-elevated;
+  }
+
+  .btn-ghost {
+    @apply btn text-muted hover:bg-elevated hover:text-ink;
+  }
+
+  .btn-danger {
+    @apply btn bg-danger text-white hover:opacity-90;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full border border-line bg-elevated px-2 py-0.5 text-[11px] font-medium text-muted;
+  }
+
+  .table-base {
+    @apply w-full border-collapse text-left text-sm;
+  }
+
+  .table-base thead th {
+    @apply sticky top-0 z-10 whitespace-nowrap border-b border-line bg-elevated px-3 py-2 text-[11px]
+      uppercase tracking-wide text-muted;
+  }
+
+  .table-base tbody td {
+    @apply border-b border-line/70 px-3 py-2 align-middle;
+  }
+
+  .table-base tbody tr:hover {
+    @apply bg-elevated/60;
+  }
+
+  .skeleton {
+    @apply relative overflow-hidden rounded-md bg-line/60;
+  }
+
+  .skeleton::after {
+    @apply absolute inset-0 animate-shimmer bg-gradient-to-r from-transparent via-white/25 to-transparent content-[''];
+  }
+
+  .scroll-thin {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(var(--c-line)) transparent;
+  }
+
+  .scroll-thin::-webkit-scrollbar { height: 8px; width: 8px; }
+  .scroll-thin::-webkit-scrollbar-thumb { @apply rounded-full bg-line; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

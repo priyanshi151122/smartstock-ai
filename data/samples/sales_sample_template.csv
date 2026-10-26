@@ -1,0 +1,43 @@
+sku,product_name,category,date,quantity,unit_price,store,supplier,inventory,unit_cost,order_id
+DAIRY-001,Amul Taaza Toned Milk 1L,Dairy,2025-01-01,12.5,68.0,Main Store,Amul Distributors,120,74.0,ORD-20250101-1
+SNKS-004,Lay's Classic Salted 52g,Snacks,2025-01-01,10.0,20.0,Main Store,PepsiCo Foods,240,15.5,ORD-20250101-2
+STPL-002,Tata Sampann Toor Dal 1kg,Staples,2025-01-01,6.0,165.0,Main Store,Tata Consumer,60,128.0,ORD-20250101-3
+DAIRY-001,Amul Taaza Toned Milk 1L,Dairy,2025-01-02,13.5,68.0,Main Store,Amul Distributors,120,74.0,ORD-20250102-1
+SNKS-004,Lay's Classic Salted 52g,Snacks,2025-01-02,11.0,20.0,Main Store,PepsiCo Foods,240,15.5,ORD-20250102-2
+STPL-002,Tata Sampann Toor Dal 1kg,Staples,2025-01-02,7.0,165.0,Main Store,Tata Consumer,60,128.0,ORD-20250102-3
+DAIRY-001,Amul Taaza Toned Milk 1L,Dairy,2025-01-03,14.5,68.0,Main Store,Amul Distributors,120,74.0,ORD-20250103-1
+SNKS-004,Lay's Classic Salted 52g,Snacks,2025-01-03,12.0,20.0,Main Store,PepsiCo Foods,240,15.5,ORD-20250103-2
+STPL-002,Tata Sampann Toor Dal 1kg,Staples,2025-01-03,8.0,165.0,Main Store,Tata Consumer,60,128.0,ORD-20250103-3
+DAIRY-001,Amul Taaza Toned Milk 1L,Dairy,2025-01-04,15.5,68.0,Main Store,Amul Distributors,120,74.0,ORD-20250104-1
+SNKS-004,Lay's Classic Salted 52g,Snacks,2025-01-04,13.0,20.0,Main Store,PepsiCo Foods,240,15.5,ORD-20250104-2
+STPL-002,Tata Sampann Toor Dal 1kg,Staples,2025-01-04,4.0,165.0,Main Store,Tata Consumer,60,128.0,ORD-20250104-3
+DAIRY-001,Amul Taaza Toned Milk 1L,Dairy,2025-01-05,16.5,68.0,Main Store,Amul Distributors,120,74.0,ORD-20250105-1
+SNKS-004,Lay's Classic Salted 52g,Snacks,2025-01-05,9.0,20.0,Main Store,PepsiCo Foods,240,15.5,ORD-20250105-2
+STPL-002,Tata Sampann Toor Dal 1kg,Staples,2025-01-05,5.0,165.0,Main Store,Tata Consumer,60,128.0,ORD-20250105-3
+DAIRY-001,Amul Taaza Toned Milk 1L,Dairy,2025-01-06,12.5,68.0,Main Store,Amul Distributors,120,74.0,ORD-20250106-1
+SNKS-004,Lay's Classic Salted 52g,Snacks,2025-01-06,10.0,20.0,Main Store,PepsiCo Foods,240,15.5,ORD-20250106-2
+STPL-002,Tata Sampann Toor Dal 1kg,Staples,2025-01-06,6.0,165.0,Main Store,Tata Consumer,60,128.0,ORD-20250106-3
+DAIRY-001,Amul Taaza Toned Milk 1L,Dairy,2025-01-07,13.5,68.0,Main Store,Amul Distributors,120,74.0,ORD-20250107-1
+SNKS-004,Lay's Classic Salted 52g,Snacks,2025-01-07,11.0,20.0,Main Store,PepsiCo Foods,240,15.5,ORD-20250107-2
+STPL-002,Tata Sampann Toor Dal 1kg,Staples,2025-01-07,7.0,165.0,Main Store,Tata Consumer,60,128.0,ORD-20250107-3
+DAIRY-001,Amul Taaza Toned Milk 1L,Dairy,2025-01-08,14.5,68.0,Main Store,Amul Distributors,120,74.0,ORD-20250108-1
+SNKS-004,Lay's Classic Salted 52g,Snacks,2025-01-08,12.0,20.0,Main Store,PepsiCo Foods,240,15.5,ORD-20250108-2
+STPL-002,Tata Sampann Toor Dal 1kg,Staples,2025-01-08,8.0,165.0,Main Store,Tata Consumer,60,128.0,ORD-20250108-3
+DAIRY-001,Amul Taaza Toned Milk 1L,Dairy,2025-01-09,15.5,68.0,Main Store,Amul Distributors,120,74.0,ORD-20250109-1
+SNKS-004,Lay's Classic Salted 52g,Snacks,2025-01-09,13.0,20.0,Main Store,PepsiCo Foods,240,15.5,ORD-20250109-2
+STPL-002,Tata Sampann Toor Dal 1kg,Staples,2025-01-09,4.0,165.0,Main Store,Tata Consumer,60,128.0,ORD-20250109-3
+DAIRY-001,Amul Taaza Toned Milk 1L,Dairy,2025-01-10,16.5,68.0,Main Store,Amul Distributors,120,74.0,ORD-20250110-1
+SNKS-004,Lay's Classic Salted 52g,Snacks,2025-01-10,9.0,20.0,Main Store,PepsiCo Foods,240,15.5,ORD-20250110-2
+STPL-002,Tata Sampann Toor Dal 1kg,Staples,2025-01-10,5.0,165.0,Main Store,Tata Consumer,60,128.0,ORD-20250110-3
+DAIRY-001,Amul Taaza Toned Milk 1L,Dairy,2025-01-11,12.5,68.0,Main Store,Amul Distributors,120,74.0,ORD-20250111-1
+SNKS-004,Lay's Classic Salted 52g,Snacks,2025-01-11,10.0,20.0,Main Store,PepsiCo Foods,240,15.5,ORD-20250111-2
+STPL-002,Tata Sampann Toor Dal 1kg,Staples,2025-01-11,6.0,165.0,Main Store,Tata Consumer,60,128.0,ORD-20250111-3
+DAIRY-001,Amul Taaza Toned Milk 1L,Dairy,2025-01-12,13.5,68.0,Main Store,Amul Distributors,120,74.0,ORD-20250112-1
+SNKS-004,Lay's Classic Salted 52g,Snacks,2025-01-12,11.0,20.0,Main Store,PepsiCo Foods,240,15.5,ORD-20250112-2
+STPL-002,Tata Sampann Toor Dal 1kg,Staples,2025-01-12,7.0,165.0,Main Store,Tata Consumer,60,128.0,ORD-20250112-3
+DAIRY-001,Amul Taaza Toned Milk 1L,Dairy,2025-01-13,14.5,68.0,Main Store,Amul Distributors,120,74.0,ORD-20250113-1
+SNKS-004,Lay's Classic Salted 52g,Snacks,2025-01-13,12.0,20.0,Main Store,PepsiCo Foods,240,15.5,ORD-20250113-2
+STPL-002,Tata Sampann Toor Dal 1kg,Staples,2025-01-13,8.0,165.0,Main Store,Tata Consumer,60,128.0,ORD-20250113-3
+DAIRY-001,Amul Taaza Toned Milk 1L,Dairy,2025-01-14,15.5,68.0,Main Store,Amul Distributors,120,74.0,ORD-20250114-1
+SNKS-004,Lay's Classic Salted 52g,Snacks,2025-01-14,13.0,20.0,Main Store,PepsiCo Foods,240,15.5,ORD-20250114-2
+STPL-002,Tata Sampann Toor Dal 1kg,Staples,2025-01-14,4.0,165.0,Main Store,Tata Consumer,60,128.0,ORD-20250114-3

@@ -1,0 +1,11 @@
+sku,product_name,category,date,quantity,unit_price,store
+DAIRY-001,Amul Taaza Toned Milk 1L,Dairy,2025-03-01,12,68,Main
+DAIRY-001,Amul Taaza Toned Milk 1L,Dairy,2025-03-01,12,68,Main
+SNKS-001,Lay's Classic Salted 52g,Snacks,2025-03-02,-3,20,Main
+,,Snacks,2025-03-02,5,20,Main
+BEVG-001,Tata Tea Premium 500g,Beverages,not-a-date,4,265,Main
+BEVG-003,Coca-Cola 1.25L,Beverages,2025-03-03,,65,Main
+STPL-005,Tata Salt 1kg,Staples,03/04/2025,18,₹28.00,Main
+stpl-003,Fortune Sunflower Oil 1L,staples,2025-03-04,9,145,Express
+HH-001,Surf Excel Easy Wash 1kg,Household,2025-03-05,6,,Main
+HH-002,Colgate Strong Teeth 200g,Household,2025-03-05,seven,105,Main
